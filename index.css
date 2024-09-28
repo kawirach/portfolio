@@ -13,8 +13,8 @@ main, footer {
     color: #ff7068;
     @media (mix-width: 800px) {
        
-            padding-left: 15em;
-            padding-right: 15em;
+            padding-left: 10em;
+            padding-right: 10em;
     }
 }
 
@@ -28,7 +28,7 @@ main, footer {
 
     .heads {
        
-        font-size: 100px;
+        font-size: 20vh;
         color: #ff7068;
         font-weight: bold;
         grid-column: 2 / 3;
@@ -37,9 +37,9 @@ main, footer {
    
     .logo {
         background-image: url(https://www.kmitl.ac.th/themes/custom/kmitl/logo.svg);
-        width: 110px;
+        width: 10em;
         background-size: cover;
-        height: 110px;
+        
 
          
     }
