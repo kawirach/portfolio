@@ -1,0 +1,75 @@
+
+
+main, footer {
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 100;
+    border-top: 1px solid black;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+    color: #ff7068;
+    @media (mix-width: 800px) {
+       
+            padding-left: 15em;
+            padding-right: 15em;
+    }
+}
+
+    header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+
+
+
+    .heads {
+       
+        font-size: 100px;
+        color: #ff7068;
+        font-weight: bold;
+        grid-column: 2 / 3;
+        
+    }
+   
+    .logo {
+        background-image: url(https://www.kmitl.ac.th/themes/custom/kmitl/logo.svg);
+        width: 110px;
+        background-size: cover;
+        height: 110px;
+
+         
+    }
+}
+
+
+.headerbackground {
+    background-image: url(https://www.kmitl.ac.th/sites/default/files/styles/banner_3_1/public/2021-12/kmitlweb01.jpg?itok=f5Vg9Fjo);
+    height: 500px;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 1px;
+    
+
+
+}
+.one {
+    color: #ff7068;
+   
+    
+    
+    h1 {
+        font-size: 60px;
+
+    }
+
+}
+h2 {
+    font-size: 40px;
+}
+p {
+    font-size: 18px;
+}
