@@ -40,9 +40,10 @@ main, footer {
 
     .heads {
        
-        font-size: 15vh;
+        font-size: 20vh;
         color: #ff7068;
-       
+        justify-content: center;
+        text-align: center;
         grid-column: 2 / 3;
        
         
