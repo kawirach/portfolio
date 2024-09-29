@@ -20,7 +20,17 @@ main, footer {
 
     header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+
+    nav {
+        text-align: center;
+        grid-column: 3 / 5;
+        margin-left: 4px;
+        font-size: 17px;
+        
+        
+    }
 
 
 
@@ -28,7 +38,7 @@ main, footer {
 
     .heads {
        
-        font-size: 20vh;
+        font-size: 15vh;
         color: #ff7068;
         font-weight: bold;
         grid-column: 2 / 3;
@@ -37,8 +47,10 @@ main, footer {
    
     .logo {
         background-image: url(https://www.kmitl.ac.th/themes/custom/kmitl/logo.svg);
-        width: 10em;
+        width: 7em;
+        height: 7em ;
         background-size: cover;
+        
         
 
          
