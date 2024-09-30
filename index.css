@@ -11,25 +11,29 @@ main, footer {
     margin: 10px;
     padding: 0;
     color: #ff7068;
-    @media (mix-width: 800px) {
-       
-            padding-left: 5em;
-            padding-right: 5em;
-    }
-}
 
-    header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: space-between;
+    @media (mix-width: 800px) {
+        .container {
+            padding-left: 15em;
+            padding-right: 15em;
+        }
+    }
+
+}
+   
+
+
+
+
+   
 
   
 
     nav {
         text-align: end;
-        grid-column: 3 / 5;
-        margin-left: 4px;
-        font-size: 17px;
+        
+        margin-left: 5px;
+        font-size: 20px;
         
         
     }
@@ -40,26 +44,24 @@ main, footer {
 
     .heads {
        
-        font-size: 17vh;
+        font-size: auto;
         color: #ff7068;
-        justify-content: center;
-        text-align: center;
-        grid-column: 2 / 3;
-       
-        
     }
+
+   
    
     .logo {
         background-image: url(https://www.kmitl.ac.th/themes/custom/kmitl/logo.svg);
-        width: 7em;
-        height: 7em ;
+        width: 1em;
+        height: 1em ;
         background-size: cover; 
+        
         
         
 
          
     }
-}
+
 
 
 .headerbackground {
@@ -68,6 +70,7 @@ main, footer {
     background-size: cover;
     border-radius: 10px;
     padding: 1px;
+   
     
 
 
@@ -75,8 +78,6 @@ main, footer {
 .one {
     color: #ff7068;
    
-    
-    
     h1 {
         font-size: 60px;
 
