@@ -65,12 +65,19 @@ main, footer {
 
 
 .headerbackground {
-    background-image: url(https://www.kmitl.ac.th/sites/default/files/styles/banner_3_1/public/2021-12/kmitlweb01.jpg?itok=f5Vg9Fjo);
-    height: 500px;
-    background-size: cover;
-    border-radius: 10px;
-    padding: 1px;
    
+    
+    
+   
+   
+    img {
+       
+        width: 100%;
+        padding: 1px;
+        object-fit: cover;
+        background-size: cover;
+        border-radius: 15px;
+    }
     
 
 
