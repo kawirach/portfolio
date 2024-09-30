@@ -41,17 +41,18 @@ main, footer {
     .section2 {
         display: grid;
         
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         h1 {
-            font-size: 80px;
+            font-size: 90px;
             font-weight: bold;
+            grid-column: 2 / 4;
         }
 
         
     .logo {
         background-image: url(https://www.kmitl.ac.th/themes/custom/kmitl/logo.svg);
-        width: 8em;
-        height: 8em;
+        width: 9em;
+        height: 9em;
         background-size: cover; 
         
         
