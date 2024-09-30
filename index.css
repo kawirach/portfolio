@@ -56,9 +56,9 @@ main, footer {
 
 
    h1 {
-    font-size: 50px;
+    font-size: 60px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 23px;
     grid-column-start: 1;
    }
    
@@ -67,7 +67,7 @@ main, footer {
 
    .logo {
        
-    width: 6em;
+    width: 7em;
     height: fit-content;
     background-size: cover;
     padding: 0;
@@ -96,20 +96,18 @@ main, footer {
     }
     
 
-
+    .contentPort {
+        font-size: 40px;
+    }
 
 .one {
     color: #ff7068;
    
-    .h1 {
-        font-size: 35px;
-
-    }
 
 }
 h2 {
-    font-size: 25px;
+    font-size: 20px;
 }
 p {
-    font-size: 18px;
+    font-size: 20px;
 }
