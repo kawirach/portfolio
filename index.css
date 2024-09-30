@@ -66,8 +66,8 @@ main, footer {
 
 .headerbackground {
    
-    
-    
+
+    background-repeat:(auto-fit, minmax(200px, 2fr));
    
    
     img {
