@@ -43,15 +43,15 @@ main, footer {
         
         grid-template-columns: 1fr 1fr 1fr;
         h1 {
-            font-size: 40px;
+            font-size: 80px;
             font-weight: bold;
         }
 
         
     .logo {
         background-image: url(https://www.kmitl.ac.th/themes/custom/kmitl/logo.svg);
-        width: 4em;
-        height: 4em;
+        width: 8em;
+        height: 8em;
         background-size: cover; 
         
         
