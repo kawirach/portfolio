@@ -45,20 +45,8 @@ main, footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
 
         
-
-        
-    .logo {
-       
-        width: 15em;
-        height:15em;
-        background-size: cover; 
-        
-        
-        
-        
-
          
-    }
+    
 
        
     }
@@ -68,11 +56,25 @@ main, footer {
 
 
    h1 {
-    font-size: 150px;
+    font-size: 50px;
+    justify-content: center;
+    margin-top: 20px;
+    grid-column-start: 1;
    }
    
    
 
+
+   .logo {
+       
+    width: 6em;
+    height: fit-content;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+
+
+   }
 
 
    
@@ -99,8 +101,8 @@ main, footer {
 .one {
     color: #ff7068;
    
-    h1 {
-        font-size: 55px;
+    .h1 {
+        font-size: 35px;
 
     }
 
