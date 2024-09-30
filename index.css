@@ -73,9 +73,9 @@ main, footer {
    
     img {
          
-        border-style: inset;
-        border-width : 2px; ;
-        border-color: #ff4901;
+        border-style: hidden;
+        
+        border-color: #ffffff;
         background-size: cover;
         width: 90%;
         padding: 1px;
