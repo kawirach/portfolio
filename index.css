@@ -64,30 +64,28 @@ main, footer {
 
 
 
-.headerbackground {
+
    
 
-    @media (mix-width: 800px) {
-        .container {
-            padding-left: 10em;
-            padding-right: 10em;
-        }
-    }
+     
+    
    
    
     img {
-       
-        width: 1750px;
-        height: 700px;
+         
+        border-style: inset;
+        border-width : 2px; ;
+        border-color: #ff4901;
+        background-size: cover;
+        width: 90%;
         padding: 1px;
         object-fit: cover;
-        background-size: cover;
         border-radius: 15px;
     }
     
 
 
-}
+
 .one {
     color: #ff7068;
    
