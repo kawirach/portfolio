@@ -67,7 +67,12 @@ main, footer {
 .headerbackground {
    
 
-    background-repeat:(auto-fit, minmax(200px, 2fr));
+    @media (mix-width: 800px) {
+        .container {
+            padding-left: 10em;
+            padding-right: 10em;
+        }
+    }
    
    
     img {
