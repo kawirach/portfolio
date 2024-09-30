@@ -14,8 +14,8 @@ main, footer {
 
     @media (mix-width: 800px) {
         .container {
-            padding-left: 15em;
-            padding-right: 15em;
+            padding-left: 10em;
+            padding-right: 10em;
         }
     }
 
@@ -32,8 +32,8 @@ main, footer {
     nav {
         text-align: end;
         
-        margin-left: 5px;
-        font-size: 20px;
+        margin-left: 4.5px;
+        font-size: 17px;
         
         
     }
