@@ -19,13 +19,14 @@ html, body {
 header {
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    text-align: center;
     
 
     nav {
         
-            text-align: end;
-            font-size: 18px;
+           
+            font-size: 20px;
             top: 10px;
             margin-left: 4.5px;
     
@@ -39,18 +40,13 @@ a {
     text-decoration: none;
 }
 
-.eduction {
-    img {
-      height: 170px;
-    }
-  }
+
 
 
 .cardContainer {
     display: flex;
     text-align: center;
     flex-direction: column;
-   
    
     
   
@@ -60,11 +56,22 @@ a {
 img   {  
     height: 330px;
     margin-left: 15px;
-    border-radius: 10px; 
+   
    }
 
+   .eduction {
+    img {
+      
+      height: 120px;
+    }
+  } 
 
 
+   .personal {
+    img {
+        border-radius: 20px;
+    }
+   }
 
    .Grade {
     img {
@@ -82,5 +89,5 @@ p {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 55px;
 }
