@@ -20,11 +20,7 @@ header {
     display: flex;
     flex-direction: column;
     
-    h1 {
-        font-size: 60px;
-        
-      
-    }
+    
 
     nav {
         
@@ -85,3 +81,6 @@ p {
     font-size: 20px;
 }
 
+h1 {
+    font-size: 60px;
+}
