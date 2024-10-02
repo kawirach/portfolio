@@ -43,6 +43,11 @@ a {
     text-decoration: none;
 }
 
+.eduction {
+    img {
+      height: 170px;
+    }
+  }
 
 
 .cardContainer {
@@ -50,14 +55,10 @@ a {
     text-align: center;
     flex-direction: column;
    
-    .eduction {
-        img {
-          height: 150px;
-        }
-      }
+   
     
   
-    
+   
     
 }   
 img   {  
@@ -69,7 +70,7 @@ img   {
 
 
 
-.GPA {
+   .Grade {
     img {
         height: 300px;
         margin-left: 15px;
