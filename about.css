@@ -43,11 +43,6 @@ a {
     text-decoration: none;
 }
 
-.eduction {
-    img {
-      height: 150px;
-    }
-  }
 
 
 .cardContainer {
@@ -55,13 +50,18 @@ a {
     text-align: center;
     flex-direction: column;
    
-   
+    .eduction {
+        img {
+          height: 150px;
+        }
+      }
+    
   
     
     
 }   
 img   {  
-    height: 340px;
+    height: 330px;
     margin-left: 15px;
     border-radius: 10px; 
    }
