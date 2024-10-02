@@ -43,6 +43,11 @@ a {
     text-decoration: none;
 }
 
+.eduction {
+    img {
+      height: 150px;
+    }
+  }
 
 
 .cardContainer {
@@ -62,11 +67,7 @@ img   {
    }
 
 
-.eduction {
-  img {
-    height: 150px;
-  }
-}
+
 
 .GPA {
     img {
