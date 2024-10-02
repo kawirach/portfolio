@@ -12,30 +12,78 @@
 
 html, body {
     margin: 10px; ;
+    color: #ff7068;
 }
 
 
 header {
     display: flex;
-    justify-content: space-between;
-     
-
+    flex-direction: column;
+    
     h1 {
-        font-size: 50px;
+        font-size: 60px;
+        
       
     }
 
     nav {
         
             text-align: end;
-            
-            margin: 4.5px;
-            font-size: 17px;
-            
-            
-        
+            font-size: 18px;
+            top: 10px;
+            margin-left: 4.5px;
     
     }
     
 
 }
+   
+a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+
+.cardContainer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+   
+   
+  
+    
+    
+}   
+.personal {
+    img   {  
+        height: 340px;
+        margin-left: 15px;
+        border-radius: 15px; 
+        object-fit: cover;
+        background-size: cover;
+       }
+    
+}
+
+.eduction {
+  img {
+    height: 150px;
+  }
+}
+
+.GPA {
+    img {
+        height: 300px;
+        margin-left: 15px;
+      }
+}
+
+
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+
