@@ -55,16 +55,12 @@ a {
     
     
 }   
-.personal {
-    img   {  
-        height: 340px;
-        margin-left: 15px;
-        border-radius: 15px; 
-        object-fit: cover;
-        background-size: cover;
-       }
-    
-}
+img   {  
+    height: 340px;
+    margin-left: 15px;
+    border-radius: 10px; 
+   }
+
 
 .eduction {
   img {
