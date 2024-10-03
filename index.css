@@ -8,7 +8,7 @@ main, footer {
 }
 * {
     box-sizing: border-box;
-    margin: 10px;
+    margin: 5px;
     padding: 0;
     color: #ff7068;
     background-color: rgba(255, 255, 255, 0.568);
@@ -49,7 +49,7 @@ main, footer {
    h1 {
     font-size: 60px;
    
-    margin-top: 23px;
+    margin-top  : 23px;
     
    }
    
@@ -92,8 +92,27 @@ a {
     text-decoration: none;
 }
 
-.footerMainBackground {
+ 
+.footerMainBackground2 {
+   display: flex;
+    
+}
+
+.footerheaderBackground {
+    
     background-image: url(https://res.cloudinary.com/techupth/image/upload/v1665131307/techupth/blog-posts/2202-programmer-tips_p0cpo1.jpg);
-    background-size: cover;
     height: 200px;
+    background-size: cover;
+}
+
+.footerBackgroundleft {
+    background-image: url(https://kazokku.com/blog/wp-content/uploads/2023/06/apa-itu-programmer.webp);
+    height: 200px;
+    width: 50%;
+}
+
+.footerBackgroundright {
+    background-image: url(https://auvietco.vn/wp-content/uploads/2022/10/programmer-1.jpg);
+    height: 200px;
+    width: 50%;
 }
