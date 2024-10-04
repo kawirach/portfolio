@@ -62,7 +62,7 @@ main, footer {
    
     img {
        
-        border-color: #ffffff;
+       
         background-size: cover;
         width: 100%;
         padding: 1px;
@@ -101,8 +101,10 @@ a {
 .footerheaderBackground {
     
     background-image: url(https://res.cloudinary.com/techupth/image/upload/v1665131307/techupth/blog-posts/2202-programmer-tips_p0cpo1.jpg);
-    height: 200px;
+    height: 220px;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .footerBackgroundleft {
@@ -117,4 +119,5 @@ a {
     height: 200px;
     width: 50%;
     background-size: cover;
+   
 }
