@@ -84,7 +84,7 @@ h1 {
         scale: 1;
     }
 }
-.img {
+img{
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
