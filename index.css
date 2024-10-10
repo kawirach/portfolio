@@ -53,18 +53,19 @@ main, footer {
    .logo {
     background-size: cover;
    }
-   
-    img {
-       
-       
-        background-size: cover;
-        width: 100%;
-        padding: 1px;
-        object-fit: cover;
-        border-radius: 15px;
-        
-    }
+
+   .header {
+   img{
     
+    background-size: cover;
+    width: 100%;
+    padding: 1px;
+    object-fit: cover;
+    border-radius: 15px;
+
+
+   }    
+}
 
     .contentPort {
         font-size: 45px;
@@ -115,4 +116,25 @@ nav a::before{
 }
 nav a:hover::before{
     width: 100%;
+}
+
+.footerheaderBackground{
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    width: 100% ;
+    
+}
+.footerheaderBackground img {
+    width: 50vw;
+    background-size: cover;
+    border-radius: 15px;
+    border: 3px solid tan;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.footerheaderBackground img:hover {
+    transform: scale(1.1);
 }

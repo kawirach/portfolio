@@ -24,43 +24,26 @@ header {
     
 }
    
-a {
-    margin-left: 20px;
-    text-decoration: none;
-}
-
-
-
 
 .cardContainer {
     display: flex;
     text-align: center;
     flex-direction: column;
-   
-    
-  
-   
     
 }   
-img   {  
-    height: 330px;
-    margin-left: 15px;
-   
-   }
 
    .eduction {
     img {
-      
-      height: 120px;
+      height: 150px;
     }
   } 
 
-
-   .personal {
-    img {
-        border-radius: 20px;
-    }
-   }
+.img img {
+    text-align: center;
+    width: 40%;
+    border-radius: 15px;
+    
+}
 
    .Grade {
     img {
@@ -82,7 +65,7 @@ h1 {
 }
 
 nav {
-    text-align: end;
+    text-align: center;
 }
 
 nav a {
