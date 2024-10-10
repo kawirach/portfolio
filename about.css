@@ -45,12 +45,11 @@ header {
     
 }
 
-   .Grade {
-    img {
+ div img {
         height: 300px;
         margin-left: 15px;
       }
-}
+
 
 
 h2 {
