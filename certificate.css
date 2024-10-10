@@ -29,17 +29,6 @@ header {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
-
-    nav {
-        
-           
-            font-size: 18px;
-            top: 10px;
-            margin-left: 4.5px;
-    
-    }
-    
 
 }
 a {
@@ -90,4 +79,38 @@ img{
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
+}
+nav {
+    text-align: end;
+}
+
+nav a {
+    text-align: end;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ff7068;
+    font-size: 19px;
+    padding: 0 10px;
+    margin: 0 5px;
+    position: relative;
+}
+ 
+nav a:hover {
+    color: #f50202c0;
+   
+
+}
+nav a::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #ff7068;
+    transition: all .5s;
+    border-radius: 30px;
+}
+nav a:hover::before{
+    width: 100%;
 }

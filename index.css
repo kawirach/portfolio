@@ -22,13 +22,7 @@ main, footer {
 
 }
    
-    nav {
-        text-align: end;
-        margin-left: 4.5px;
-        font-size: 18px;
-        
-        
-    }
+  
 
 
 
@@ -88,37 +82,37 @@ p {
     font-size: 20px;
 }
  
+nav {
+    text-align: end;
+}
 
-a {
+nav a {
+    text-align: end;
     text-decoration: none;
+    text-transform: capitalize;
+    color: #ff7068;
+    font-size: 19px;
+    padding: 0 10px;
+    margin: 0 5px;
+    position: relative;
 }
-
  
-.footerMainBackground2 {
-   display: flex;
-
-}
-
-.footerheaderBackground {
-    
-    background-image: url(https://res.cloudinary.com/techupth/image/upload/v1665131307/techupth/blog-posts/2202-programmer-tips_p0cpo1.jpg);
-    height: 220px;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-}
-
-.footerBackgroundleft {
-    background-image: url(https://kazokku.com/blog/wp-content/uploads/2023/06/apa-itu-programmer.webp);
-    height: 200px;
-    width: 50%;
-    background-size: cover;
-}
-
-.footerBackgroundright {
-    background-image: url(https://auvietco.vn/wp-content/uploads/2022/10/programmer-1.jpg);
-    height: 200px;
-    width: 50%;
-    background-size: cover;
+nav a:hover {
+    color: #f50202c0;
    
+
+}
+nav a::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #ff7068;
+    transition: all .5s;
+    border-radius: 30px;
+}
+nav a:hover::before{
+    width: 100%;
 }
