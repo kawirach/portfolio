@@ -1,0 +1,19 @@
+* {
+  
+    box-sizing: border-box;
+    color: #ff7068;
+  
+    }
+ 
+
+@media (min-width:320px) and (max-width:1023px){
+    .container{
+        padding: 1px;
+        margin: 1px;
+    }
+}
+
+html, body {
+    margin: 5px; ;
+    color: #ff7068;
+}

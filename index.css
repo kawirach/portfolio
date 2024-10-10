@@ -13,16 +13,16 @@ main, footer {
     color: #ff7068;
     background-color: rgba(255, 255, 255, 0.568);
 
-    @media (mix-width: 800px) {
-        .container {
-            padding-left: 10em;
-            padding-right: 10em;
-        }
-    }
+   
 
 }
    
-  
+@media (min-width:320px) and (max-width:1020px){
+    .container{
+       padding: 1px;
+       margin: 1px;
+    }
+}
 
 
 
@@ -50,8 +50,9 @@ main, footer {
    
 
 
-   .logo {
+   .logo img{
     background-size: cover;
+    width: 80%;
    }
 
    .header {
@@ -84,7 +85,7 @@ p {
 }
  
 nav {
-    text-align: end;
+    text-align: center;
 }
 
 nav a {
@@ -127,7 +128,7 @@ nav a:hover::before{
     
 }
 .footerheaderBackground img {
-    width: 50vw;
+    width: 40vw;
     background-size: cover;
     border-radius: 15px;
     border: 3px solid tan;
@@ -135,6 +136,3 @@ nav a:hover::before{
     object-fit: cover;
 }
 
-.footerheaderBackground img:hover {
-    transform: scale(1.1);
-}

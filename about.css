@@ -2,11 +2,11 @@
   
     box-sizing: border-box;
     color: #ff7068;
-    @media (mix-width: 800px) {
-        .container {
-            padding-left: 10em;
-            padding-right: 10em;
-        }
+}
+@media (min-width:320px) and (max-width:1023px){
+    .container{
+        padding: 1px;
+        margin: 1px;
     }
 }
 
