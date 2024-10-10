@@ -45,10 +45,11 @@ header {
     
 }
 
- div img {
-        height: 300px;
-        margin-left: 15px;
-      }
+Grade img {
+    background-size: cover;
+    display: flex;
+
+}
 
 
 
